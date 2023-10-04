@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BAFF67E02ACBCCE60042612E /* Test_MenuBar_MacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF67DF2ACBCCE60042612E /* Test_MenuBar_MacApp.swift */; };
+		BAC015BE2ACD42D500D0890E /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC015BD2ACD42D500D0890E /* Store.swift */; };
 		BAFF67E22ACBCCE60042612E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF67E12ACBCCE60042612E /* ContentView.swift */; };
 		BAFF67E42ACBCCE70042612E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFF67E32ACBCCE70042612E /* Assets.xcassets */; };
 		BAFF67E72ACBCCE70042612E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFF67E62ACBCCE70042612E /* Preview Assets.xcassets */; };
-		BAFF67F22ACBCCE80042612E /* Test_MenuBar_MacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF67F12ACBCCE80042612E /* Test_MenuBar_MacTests.swift */; };
-		BAFF67FC2ACBCCE80042612E /* Test_MenuBar_MacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF67FB2ACBCCE80042612E /* Test_MenuBar_MacUITests.swift */; };
-		BAFF67FE2ACBCCE80042612E /* Test_MenuBar_MacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF67FD2ACBCCE80042612E /* Test_MenuBar_MacUITestsLaunchTests.swift */; };
+		BAFF680B2ACBCE700042612E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFF680A2ACBCE700042612E /* AppDelegate.swift */; };
+		BAFF680F2ACBD6CF0042612E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFF680E2ACBD6CF0042612E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BAFF67DC2ACBCCE60042612E /* Test_MenuBar_Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test_MenuBar_Mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAFF67DF2ACBCCE60042612E /* Test_MenuBar_MacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_MenuBar_MacApp.swift; sourceTree = "<group>"; };
+		BAC015BD2ACD42D500D0890E /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		BAFF67DC2ACBCCE60042612E /* Clipboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clipboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFF67E12ACBCCE60042612E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BAFF67E32ACBCCE70042612E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFF67E62ACBCCE70042612E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BAFF67E82ACBCCE70042612E /* Test_MenuBar_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Test_MenuBar_Mac.entitlements; sourceTree = "<group>"; };
-		BAFF67ED2ACBCCE80042612E /* Test_MenuBar_MacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_MenuBar_MacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAFF67F12ACBCCE80042612E /* Test_MenuBar_MacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_MenuBar_MacTests.swift; sourceTree = "<group>"; };
-		BAFF67F72ACBCCE80042612E /* Test_MenuBar_MacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_MenuBar_MacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAFF67FB2ACBCCE80042612E /* Test_MenuBar_MacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_MenuBar_MacUITests.swift; sourceTree = "<group>"; };
-		BAFF67FD2ACBCCE80042612E /* Test_MenuBar_MacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_MenuBar_MacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAFF67ED2ACBCCE80042612E /* ClipboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFF67F72ACBCCE80042612E /* ClipboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFF680A2ACBCE700042612E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAFF680E2ACBD6CF0042612E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BAFF68132ACC16930042612E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS16.4.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,36 +71,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BAABA20D2ACC1B9800417B8F /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				BAC015BD2ACD42D500D0890E /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		BACB78B42ACCF76F00E72E19 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF680A2ACBCE700042612E /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BACB78B52ACCF78300E72E19 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF67E32ACBCCE70042612E /* Assets.xcassets */,
+				BAFF67E82ACBCCE70042612E /* Test_MenuBar_Mac.entitlements */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BACB78B62ACCF79E00E72E19 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				BAFF67E12ACBCCE60042612E /* ContentView.swift */,
+				BAFF680E2ACBD6CF0042612E /* Main.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		BAFF67D32ACBCCE60042612E = {
 			isa = PBXGroup;
 			children = (
-				BAFF67DE2ACBCCE60042612E /* Test_MenuBar_Mac */,
-				BAFF67F02ACBCCE80042612E /* Test_MenuBar_MacTests */,
-				BAFF67FA2ACBCCE80042612E /* Test_MenuBar_MacUITests */,
+				BAFF67DE2ACBCCE60042612E /* Clipboard */,
 				BAFF67DD2ACBCCE60042612E /* Products */,
+				BAFF68122ACC16930042612E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		BAFF67DD2ACBCCE60042612E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BAFF67DC2ACBCCE60042612E /* Test_MenuBar_Mac.app */,
-				BAFF67ED2ACBCCE80042612E /* Test_MenuBar_MacTests.xctest */,
-				BAFF67F72ACBCCE80042612E /* Test_MenuBar_MacUITests.xctest */,
+				BAFF67DC2ACBCCE60042612E /* Clipboard.app */,
+				BAFF67ED2ACBCCE80042612E /* ClipboardTests.xctest */,
+				BAFF67F72ACBCCE80042612E /* ClipboardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BAFF67DE2ACBCCE60042612E /* Test_MenuBar_Mac */ = {
+		BAFF67DE2ACBCCE60042612E /* Clipboard */ = {
 			isa = PBXGroup;
 			children = (
-				BAFF67DF2ACBCCE60042612E /* Test_MenuBar_MacApp.swift */,
-				BAFF67E12ACBCCE60042612E /* ContentView.swift */,
-				BAFF67E32ACBCCE70042612E /* Assets.xcassets */,
-				BAFF67E82ACBCCE70042612E /* Test_MenuBar_Mac.entitlements */,
+				BACB78B62ACCF79E00E72E19 /* Scenes */,
+				BAABA20D2ACC1B9800417B8F /* Store */,
+				BACB78B52ACCF78300E72E19 /* Resource */,
+				BACB78B42ACCF76F00E72E19 /* Application */,
 				BAFF67E52ACBCCE70042612E /* Preview Content */,
 			);
-			path = Test_MenuBar_Mac;
+			path = Clipboard;
 			sourceTree = "<group>";
 		};
 		BAFF67E52ACBCCE70042612E /* Preview Content */ = {
@@ -112,29 +144,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		BAFF67F02ACBCCE80042612E /* Test_MenuBar_MacTests */ = {
+		BAFF68122ACC16930042612E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BAFF67F12ACBCCE80042612E /* Test_MenuBar_MacTests.swift */,
+				BAFF68132ACC16930042612E /* UIKit.framework */,
 			);
-			path = Test_MenuBar_MacTests;
-			sourceTree = "<group>";
-		};
-		BAFF67FA2ACBCCE80042612E /* Test_MenuBar_MacUITests */ = {
-			isa = PBXGroup;
-			children = (
-				BAFF67FB2ACBCCE80042612E /* Test_MenuBar_MacUITests.swift */,
-				BAFF67FD2ACBCCE80042612E /* Test_MenuBar_MacUITestsLaunchTests.swift */,
-			);
-			path = Test_MenuBar_MacUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BAFF67DB2ACBCCE60042612E /* Test_MenuBar_Mac */ = {
+		BAFF67DB2ACBCCE60042612E /* Clipboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAFF68012ACBCCE80042612E /* Build configuration list for PBXNativeTarget "Test_MenuBar_Mac" */;
+			buildConfigurationList = BAFF68012ACBCCE80042612E /* Build configuration list for PBXNativeTarget "Clipboard" */;
 			buildPhases = (
 				BAFF67D82ACBCCE60042612E /* Sources */,
 				BAFF67D92ACBCCE60042612E /* Frameworks */,
@@ -144,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = Test_MenuBar_Mac;
+			name = Clipboard;
 			productName = Test_MenuBar_Mac;
-			productReference = BAFF67DC2ACBCCE60042612E /* Test_MenuBar_Mac.app */;
+			productReference = BAFF67DC2ACBCCE60042612E /* Clipboard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BAFF67EC2ACBCCE80042612E /* Test_MenuBar_MacTests */ = {
+		BAFF67EC2ACBCCE80042612E /* ClipboardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAFF68042ACBCCE80042612E /* Build configuration list for PBXNativeTarget "Test_MenuBar_MacTests" */;
+			buildConfigurationList = BAFF68042ACBCCE80042612E /* Build configuration list for PBXNativeTarget "ClipboardTests" */;
 			buildPhases = (
 				BAFF67E92ACBCCE80042612E /* Sources */,
 				BAFF67EA2ACBCCE80042612E /* Frameworks */,
@@ -162,14 +185,14 @@
 			dependencies = (
 				BAFF67EF2ACBCCE80042612E /* PBXTargetDependency */,
 			);
-			name = Test_MenuBar_MacTests;
+			name = ClipboardTests;
 			productName = Test_MenuBar_MacTests;
-			productReference = BAFF67ED2ACBCCE80042612E /* Test_MenuBar_MacTests.xctest */;
+			productReference = BAFF67ED2ACBCCE80042612E /* ClipboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BAFF67F62ACBCCE80042612E /* Test_MenuBar_MacUITests */ = {
+		BAFF67F62ACBCCE80042612E /* ClipboardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAFF68072ACBCCE80042612E /* Build configuration list for PBXNativeTarget "Test_MenuBar_MacUITests" */;
+			buildConfigurationList = BAFF68072ACBCCE80042612E /* Build configuration list for PBXNativeTarget "ClipboardUITests" */;
 			buildPhases = (
 				BAFF67F32ACBCCE80042612E /* Sources */,
 				BAFF67F42ACBCCE80042612E /* Frameworks */,
@@ -180,9 +203,9 @@
 			dependencies = (
 				BAFF67F92ACBCCE80042612E /* PBXTargetDependency */,
 			);
-			name = Test_MenuBar_MacUITests;
+			name = ClipboardUITests;
 			productName = Test_MenuBar_MacUITests;
-			productReference = BAFF67F72ACBCCE80042612E /* Test_MenuBar_MacUITests.xctest */;
+			productReference = BAFF67F72ACBCCE80042612E /* ClipboardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BAFF67D72ACBCCE60042612E /* Build configuration list for PBXProject "Test_MenuBar_Mac" */;
+			buildConfigurationList = BAFF67D72ACBCCE60042612E /* Build configuration list for PBXProject "Clipboard" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +244,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BAFF67DB2ACBCCE60042612E /* Test_MenuBar_Mac */,
-				BAFF67EC2ACBCCE80042612E /* Test_MenuBar_MacTests */,
-				BAFF67F62ACBCCE80042612E /* Test_MenuBar_MacUITests */,
+				BAFF67DB2ACBCCE60042612E /* Clipboard */,
+				BAFF67EC2ACBCCE80042612E /* ClipboardTests */,
+				BAFF67F62ACBCCE80042612E /* ClipboardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFF680F2ACBD6CF0042612E /* Main.storyboard in Resources */,
 				BAFF67E72ACBCCE70042612E /* Preview Assets.xcassets in Resources */,
 				BAFF67E42ACBCCE70042612E /* Assets.xcassets in Resources */,
 			);
@@ -259,8 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC015BE2ACD42D500D0890E /* Store.swift in Sources */,
+				BAFF680B2ACBCE700042612E /* AppDelegate.swift in Sources */,
 				BAFF67E22ACBCCE60042612E /* ContentView.swift in Sources */,
-				BAFF67E02ACBCCE60042612E /* Test_MenuBar_MacApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +293,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAFF67F22ACBCCE80042612E /* Test_MenuBar_MacTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +300,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAFF67FC2ACBCCE80042612E /* Test_MenuBar_MacUITests.swift in Sources */,
-				BAFF67FE2ACBCCE80042612E /* Test_MenuBar_MacUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +308,12 @@
 /* Begin PBXTargetDependency section */
 		BAFF67EF2ACBCCE80042612E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BAFF67DB2ACBCCE60042612E /* Test_MenuBar_Mac */;
+			target = BAFF67DB2ACBCCE60042612E /* Clipboard */;
 			targetProxy = BAFF67EE2ACBCCE80042612E /* PBXContainerItemProxy */;
 		};
 		BAFF67F92ACBCCE80042612E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BAFF67DB2ACBCCE60042612E /* Test_MenuBar_Mac */;
+			target = BAFF67DB2ACBCCE60042612E /* Clipboard */;
 			targetProxy = BAFF67F82ACBCCE80042612E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -415,16 +437,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Test_MenuBar_Mac/Test_MenuBar_Mac.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test_MenuBar_Mac/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Clipboard/Preview Content\"";
 				DEVELOPMENT_TEAM = JF5Q6HSWBK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -432,6 +458,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "menuBar.trainning.Test-MenuBar-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -442,16 +471,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Test_MenuBar_Mac/Test_MenuBar_Mac.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Test_MenuBar_Mac/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Clipboard/Preview Content\"";
 				DEVELOPMENT_TEAM = JF5Q6HSWBK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -459,6 +492,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "menuBar.trainning.Test-MenuBar-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -479,7 +515,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test_MenuBar_Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Test_MenuBar_Mac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clipboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clipboard";
 			};
 			name = Debug;
 		};
@@ -498,7 +534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test_MenuBar_Mac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Test_MenuBar_Mac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clipboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Clipboard";
 			};
 			name = Release;
 		};
@@ -539,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BAFF67D72ACBCCE60042612E /* Build configuration list for PBXProject "Test_MenuBar_Mac" */ = {
+		BAFF67D72ACBCCE60042612E /* Build configuration list for PBXProject "Clipboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAFF67FF2ACBCCE80042612E /* Debug */,
@@ -548,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAFF68012ACBCCE80042612E /* Build configuration list for PBXNativeTarget "Test_MenuBar_Mac" */ = {
+		BAFF68012ACBCCE80042612E /* Build configuration list for PBXNativeTarget "Clipboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAFF68022ACBCCE80042612E /* Debug */,
@@ -557,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAFF68042ACBCCE80042612E /* Build configuration list for PBXNativeTarget "Test_MenuBar_MacTests" */ = {
+		BAFF68042ACBCCE80042612E /* Build configuration list for PBXNativeTarget "ClipboardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAFF68052ACBCCE80042612E /* Debug */,
@@ -566,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAFF68072ACBCCE80042612E /* Build configuration list for PBXNativeTarget "Test_MenuBar_MacUITests" */ = {
+		BAFF68072ACBCCE80042612E /* Build configuration list for PBXNativeTarget "ClipboardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BAFF68082ACBCCE80042612E /* Debug */,
