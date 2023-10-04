@@ -88,6 +88,7 @@ struct ContentView: View {
                     ScrollView(.vertical, showsIndicators: false, content: {
                         ScrollViewReader{ scrollViewProxy in
                             VStack(alignment: .leading, spacing: 5) {
+                                Spacer().frame(height: 5).id(1)
                                 ForEach(Array(searchResults.enumerated()), id: \.element) {index, item in
                                     HStack {
                                         Button {
@@ -125,7 +126,6 @@ struct ContentView: View {
                                     }
                                 }
                             }
-                            .id(1)
                             .onChange(of: isScrollToTop) { newValue in
                                 scrollViewProxy.scrollTo(1)
                             }
