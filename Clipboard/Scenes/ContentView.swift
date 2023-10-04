@@ -39,6 +39,7 @@ struct ContentView: View {
 
     func updateClipboardText() {
         if let clipboardString = NSPasteboard.general.string(forType: .string), previousClipText != clipboardString {
+            data = data.filter{$0 != clipboardString}
             self.data.insert(clipboardString, at: 0)
             self.previousClipText = clipboardString
             isScrollToTop.toggle()
