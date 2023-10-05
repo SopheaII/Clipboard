@@ -19,12 +19,12 @@ struct ContentView: View {
     @State private var hoverIndex = -1
     
     var searchResults: [String] {
-            if searchText.isEmpty {
-                return data
-            } else {
-                return data.filter { $0.lowercased().contains(searchText.lowercased()) }
-            }
+        if searchText.isEmpty {
+            return data
+        } else {
+            return data.filter { $0.lowercased().contains(searchText.lowercased()) }
         }
+    }
     
     func startTriggerCopy(){
         data = UserDefaultUtils.shared.getDataList()
@@ -36,18 +36,21 @@ struct ContentView: View {
         timer.tolerance = 0.1
         RunLoop.main.add(timer, forMode: .common)
     }
-
+    
     func updateClipboardText() {
-        if let clipboardString = NSPasteboard.general.string(forType: .string), previousClipText != clipboardString {
-            data = data.filter{$0 != clipboardString}
-            self.data.insert(clipboardString, at: 0)
-            self.previousClipText = clipboardString
-            isScrollToTop.toggle()
-            /// Limit data for 100
-            if data.count == 100 {
-                data.remove(at: data.count - 1)
+        if var clipboardString = NSPasteboard.general.string(forType: .string), previousClipText != clipboardString {
+            clipboardString = clipboardString.trimmingCharacters(in: .whitespacesAndNewlines)
+            if !clipboardString.isEmpty {
+                data = data.filter{$0 != clipboardString}
+                self.data.insert(clipboardString, at: 0)
+                self.previousClipText = clipboardString
+                isScrollToTop.toggle()
+                /// Limit data for 100
+                if data.count == 100 {
+                    data.remove(at: data.count - 1)
+                }
+                updateDataToUserDefault()
             }
-            updateDataToUserDefault()
         }
     }
     
@@ -140,7 +143,6 @@ struct ContentView: View {
                         Image(systemName: "arrow.left")
                             .resizable()
                             .frame(width: 17, height: 12)
-                            .foregroundColor(Color("deleteColor"))
                     }
                     .padding(5)
                     ScrollView {
@@ -173,7 +175,6 @@ struct ContentView: View {
                 startTriggerCopy()
             }
         }
-            
     }
 }
 
