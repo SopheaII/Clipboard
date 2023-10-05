@@ -58,8 +58,8 @@ struct ContentView: View {
         UserDefaultUtils.shared.storeDataList(data: data)
     }
     
-    func removeItem(index: Int) {
-        data.remove(at: index)
+    func removeItem(item: String) {
+        data = data.filter{$0 != item}
         updateDataToUserDefault()
     }
     
@@ -117,7 +117,7 @@ struct ContentView: View {
                                         .padding(3)
                                         .buttonStyle(PlainButtonStyle())
                                         Button(action: {
-                                            removeItem(index: index)
+                                            removeItem(item: item)
                                         }){
                                             Image(systemName: "trash.slash")
                                                 .resizable()
